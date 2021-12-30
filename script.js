@@ -27,5 +27,6 @@ function atualizarPreco(){
     preco *= 1 + taxaUrgencia
     
     
+    
     document.querySelector("#preco").innerHTML = `€ ${preco.toFixed(2)}`
 }
